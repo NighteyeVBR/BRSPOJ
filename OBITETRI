@@ -69,9 +69,6 @@ int main()
     for(int i = 0; i < n; i++){
         cout << rank[i] << " " << p[i] << " " << c[i] << endl; 
     }
-    if(n!=0){
-       cout << "\n";
-    }
     test++;
     }
     }while(n > 0);
